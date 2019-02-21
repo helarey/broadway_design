@@ -7,16 +7,22 @@ html {
   background-size: cover;
 }
 
+.heading_nav ul, .heading_nav a {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+  list-style: none;
+}
+
+.heading_nav li {
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
 .heading_nav h1 {
   font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
-  color: white;
-}
-
-.heading_nav p {
-  font-family: Helvetica;
-  font-size: 18px;
   color: white;
 }
 
@@ -53,12 +59,15 @@ footer {
 
 .footerheading {
   font-family: Helvetica;
-  font-size: 11px;
+  font-size: 10px;
 }
 
-.footernav li, .footernav ul {
+.footernav li, .footernav ul, .footernav a {
   list-style: none;
   display: inline;
   margin: 0;
   padding: 0;
+  font-family: Helvetica;
+  font-size: 13px;
+  color: white;
 }
